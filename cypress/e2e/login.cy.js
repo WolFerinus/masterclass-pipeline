@@ -36,7 +36,7 @@ describe('Login', () => {
     });
   });
 
-  it('deve exibir erro quando e-mail invalido', () => {
+  it('deve exibir erro quando e-mail inválido', () => {
     cy.visit('/login');
 
     const emailInvalido = 'email-invalido';
